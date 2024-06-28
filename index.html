@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SillyTilly</title>
+  <link rel="preconnect" href="https://fonts.bunny.net">
+  <link href="https://fonts.bunny.net/css?family=inter:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+  <style>
+    body,html {
+      font-family: 'Inter', sans-serif;
+      background: #2d2f2d;
+      color: #f6d9c4;
+      margin: 0;
+    }
+
+    a {
+      color: #f6d9c4;
+    }
+
+    .container {
+      width: 500px;
+      margin: 30px auto;
+      background: rgba(0,0,0,0.1);
+      padding: 30px;
+      border-radius: 30px;
+      border: 5px solid rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    p {
+      margin: 0;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    details > summary {
+      cursor: pointer;
+    }
+
+    details > p {
+      color: white;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+    }
+
+    .split {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .split > div {
+      flex-shrink: 0;
+    }
+
+    .split > div:first-child {
+      flex-shrink: 1;
+    }
+
+    ul {
+      list-style-position: inside;
+      padding-left: 0;
+      margin: 0;
+    }
+  </style>
+  <script>
+    function home(subdomain) {
+      window.open(`${window.location.protocol}//${subdomain}.${window.location.hostname}`)
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://em-content.zobj.net/source/lg/307/clown-face_1f921.png" />
+    </header>
+
+    <div class="split">
+      <div>
+        <h4>faq</h4>
+        <details>
+          <summary>subdomain</summary>
+          <p>be active; then simply sign up for e.g. <a href="https://surge.sh/">surge.sh</a> or <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">github pages</a> (or your own VPS etc.) and DM / ping me with the A or CNAME record to add alongside the subdomain you want to claim</p>
+        </details> 
+        <details>
+          <summary>mail account</summary>
+          <p>DM nyx</p>
+        </details> 
+        <details>
+          <summary>HF org</summary>
+          <p>check pins</p>
+        </details> 
+      </div>
+
+      <div>
+        <h4>homes</h4>
+        <ul>
+          <li>coming soon</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
